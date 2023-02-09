@@ -1,0 +1,19 @@
+<div class="blog-list-items">
+    {% for article in articles %}
+        <!-- Start Blog List Single Item -->
+        <div class="blog-list-single-item">
+            <a href="/article/{{ article.id }}" class="image"><img src="{{ article.intro_image }}" alt=""></a>
+            <div class="content">
+                <span class="author">By<a href="">Walter Houston</a></span>
+                <h5 class="title"><a href="/article/{{ article.id }}">{{ article.title }}</a></h5>
+                <p>{{ article.intro_text }}</p>
+
+                <div class="post-info">
+                    <span>{{ article.created_at|date('d/m/Y', timezone="Asia/Vladivostok") }}</span>
+                    <span>10 min read</span>
+                </div>
+            </div>
+        </div>
+        <!-- End Blog List Single Item -->
+    {% endfor %}
+</div>

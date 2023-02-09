@@ -1,0 +1,8 @@
+nbproject
+test.php
+CustomValidator
+vendor
+.DS_Store
+preg_test.php
+composer.lock
+.idea

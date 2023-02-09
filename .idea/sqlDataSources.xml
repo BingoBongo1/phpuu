@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="6ef85e12-1fcf-4d0e-994a-8c88e0e8df1b" name="MySQL - @localhost Mapping">
+      <data-sources db="288c6896-f4de-495b-b53a-396bfea17aef" ddl="ee41dda5-a9db-4eeb-bd7e-3d49dc1c7d61" />
+      <scope>
+        <node kind="schema">
+          <name qname="group_1231" />
+          <name qname="group_1721" />
+          <name qname="test" />
+        </node>
+      </scope>
+    </mapping>
+  </component>
+</project>

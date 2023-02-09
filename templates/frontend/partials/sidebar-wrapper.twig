@@ -1,0 +1,34 @@
+<div class="sidebar-wrapper">
+    <!-- Start Sidebar Widget Single Item - Search -->
+    <div class="sidebar-widget-singel-item widget-box-bg gray-bg">
+        <h4 class="title">Search</h4>
+        <form class="widget-search" action="#" method="post">
+            <input type="search" placeholder="Search here" required>
+            <button type="submit"><i class="icofont-search-1"></i></button>
+        </form>
+    </div>
+    <!-- End Sidebar Widget Single Item - Search -->
+
+    <!-- Start Sidebar Widget Single Item - Service Catagory -->
+    <div class="sidebar-widget-singel-item widget-box-bg gray-bg">
+        <h4 class="title">Категории</h4>
+        <ul class="widget-catagory">
+            {% for category in categories %}
+                <li><a href="/category/{{ category.id }}"><i class="icofont-double-right"></i>{{ category.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <!-- End Sidebar Widget Single Item - Service Catagory -->
+
+    <!-- Start Sidebar Widget Single Item - Tags -->
+    <div class="sidebar-widget-singel-item widget-box-bg">
+        <h4 class="title">popular tags</h4>
+        <ul class="blog-filter">
+            <li><a href="#">Racing</a></li>
+            <li><a href="#">Shooters</a></li>
+            <li><a href="#">Strategy</a></li>
+            <li><a href="#">Online</a></li>
+        </ul>
+    </div>
+    <!-- End Sidebar Widget Single Item - Tags -->
+</div>
